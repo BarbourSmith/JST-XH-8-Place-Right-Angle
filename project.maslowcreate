@@ -59,17 +59,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 242,
-                    "y": 203,
+                    "x": 258,
+                    "y": 163,
                     "uniqueID": 119261,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -93,6 +89,35 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 362,
+                    "y": 207,
+                    "uniqueID": 100633,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 7
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0.75
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 508,
+                    "y": 164,
+                    "uniqueID": 355392,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Color",
@@ -121,13 +146,37 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 468253,
+                    "ap2ID": 119261
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 126659,
                     "ap2ID": 740716
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 119261,
+                    "ap2ID": 100633
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 740716,
+                    "ap2ID": 355392
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 100633,
+                    "ap2ID": 355392
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 355392,
                     "ap2ID": 220196
                 },
                 {
