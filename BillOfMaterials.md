@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|0|$0.00|www.example.com|
-|Total: |0|$0.00| |
+|JST XH 8 Place Connector|1|$0.10|https://www.aliexpress.com/item/32868570445.html|
+|Total: |1|$0.10| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.29

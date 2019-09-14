@@ -10,6 +10,23 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 130,
+                    "y": 67,
+                    "uniqueID": 560486,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -23,8 +40,8 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 155,
-            "y": 199,
+            "x": 123,
+            "y": 207,
             "uniqueID": 484345,
             "ioValues": [],
             "topLevel": false,
@@ -287,6 +304,27 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 906,
+                    "y": 116,
+                    "uniqueID": 686459,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -1.2
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -405,8 +443,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 200928,
+                    "ap2ID": 686459
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 200928
+                    "ap1ID": 686459
                 }
             ],
             "fileTypeVersion": 1
@@ -431,8 +475,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 155,
-                    "y": 199,
+                    "x": 123,
+                    "y": 207,
                     "uniqueID": 484345,
                     "ioValues": []
                 },
@@ -466,10 +510,10 @@
                     "uniqueID": 644980,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "BOMitemName": "JST XH 8 Place Connector",
+                        "numberNeeded": 1,
+                        "costUSD": 0.098,
+                        "source": "https://www.aliexpress.com/item/32868570445.html",
                         "totalNeeded": 0
                     }
                 },
