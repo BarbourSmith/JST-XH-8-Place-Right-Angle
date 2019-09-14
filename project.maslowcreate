@@ -2,12 +2,12 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "JST XH 8 Place Right Angle",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 644900,
+            "name": "Body",
+            "x": 132,
+            "y": 83,
+            "uniqueID": 725187,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Output",
@@ -18,6 +18,141 @@
                 }
             ],
             "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Pins",
+            "x": 153,
+            "y": 198,
+            "uniqueID": 484345,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 79,
+                    "y": 61,
+                    "uniqueID": 572446,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 0.64
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 2.4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 194,
+                    "y": 67,
+                    "uniqueID": 608085,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 572446
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "JST XH 8 Place Right Angle",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 644900,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Body",
+                    "x": 132,
+                    "y": 83,
+                    "uniqueID": 725187,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Pins",
+                    "x": 153,
+                    "y": 198,
+                    "uniqueID": 484345,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 351,
+                    "y": 135,
+                    "uniqueID": 523719,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 427443",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 427443",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 708,
+                    "y": 155,
+                    "uniqueID": 644980,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 484345
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
