@@ -122,17 +122,17 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 612,
+                    "x": 685,
                     "y": 142,
                     "uniqueID": 220196,
                     "ioValues": [],
-                    "selectedColorIndex": "0"
+                    "selectedColorIndex": "1"
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -233,7 +233,7 @@
                     "y": 148,
                     "uniqueID": 661649,
                     "ioValues": [],
-                    "selectedColorIndex": "9"
+                    "selectedColorIndex": "10"
                 },
                 {
                     "atomType": "Translate",
@@ -415,6 +415,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 888130",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 206750",
                             "ioValue": 10
                         },
@@ -445,10 +449,6 @@
                         {
                             "name": "3D shape 153644",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 888130",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -478,7 +478,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -642,15 +642,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 303947",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 427443",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 476830",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 303947",
                             "ioValue": 10
                         }
                     ],
@@ -675,7 +675,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
